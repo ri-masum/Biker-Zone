@@ -78,7 +78,7 @@
         </nav>
 
     </header>
-    <main class="md:container md:mx-auto">
+    <main class="md:container md:mx-auto Poppins">
         <!-- Carosol -->
         <div class="carousel w-full bg-bike_primary-bg lg:h-[600px] mt-12">
             <div id="slide1" class="carousel-item relative w-full">
@@ -178,8 +178,8 @@
         <div class="flex justify-center mt-20 mb-10 poppins">
             <h1 class="text-4xl font-semibold">Fetured Bikes In This Year</h1>
         </div>
-        <div class="flex flex-col lg:flex-row justify-evenly mt-10 ">
-            <img  src="./images/others/feature-bike.png" alt="">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 justify-evenly mt-10 gap-2 ">
+            <img src="./images/others/feature-bike.png" alt="">
             <img src="./images/others/feature-bike.png" alt="">
             <img src="./images/others/feature-bike.png" alt="">
         </div>
@@ -189,39 +189,111 @@
             <h1 class="text-4xl font-semibold">Latest News</h1>
         </div>
 
-        <div class="flex flex-col  lg:flex-row  lg:justify-evenly">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-2 justify-evenly  ">
             <div class="card card-compact w-96 bg-base-100 drop-shadow-md p-5 rounded-2xl">
                 <figure><img src="/images/others/latest1.png" alt="Shoes" /></figure>
                 <div class="card-body">
-                  <h2 class="card-title">Ducati XDIAVEL S-73</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.Ï</p>
-                  <div class="card-actions justify-start">
-                    <button class="btn btn-primary bg-white text-bike_primary border border-2 border-red-400  hover:border-red-400 hover:bg-bike_primary  hover:text-white ">Read More</button>
-                  </div>
+                    <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id
+                        nisi lectus at.Ï</p>
+                    <div class="card-actions justify-start">
+                        <button
+                            class="btn btn-primary bg-white text-bike_primary border border-2 border-red-400  hover:border-red-400 hover:bg-bike_primary  hover:text-white ">Read
+                            More</button>
+                    </div>
                 </div>
-              </div>
+            </div>
             <div class="card card-compact w-96 bg-base-100 drop-shadow-md p-5 rounded-2xl">
                 <figure><img src="/images/others/latest1.png" alt="Shoes" /></figure>
                 <div class="card-body">
-                  <h2 class="card-title">Ducati XDIAVEL S-73</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.Ï</p>
-                  <div class="card-actions justify-start">
-                    <button class="btn btn-primary bg-white text-bike_primary border border-2 border-red-400  hover:border-red-400 hover:bg-bike_primary  hover:text-white ">Read More</button>
-                  </div>
+                    <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id
+                        nisi lectus at.Ï</p>
+                    <div class="card-actions justify-start">
+                        <button
+                            class="btn btn-primary bg-white text-bike_primary border border-2 border-red-400  hover:border-red-400 hover:bg-bike_primary  hover:text-white ">Read
+                            More</button>
+                    </div>
                 </div>
-              </div>
+            </div>
             <div class="card card-compact w-96 bg-base-100 drop-shadow-md p-5 rounded-2xl">
                 <figure><img src="/images/others/latest1.png" alt="Shoes" /></figure>
                 <div class="card-body">
-                  <h2 class="card-title">Ducati XDIAVEL S-73</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.Ï</p>
-                  <div class="card-actions justify-start">
-                    <button class="btn btn-primary bg-white text-bike_primary border border-2 border-red-400  hover:border-red-400 hover:bg-bike_primary  hover:text-white ">Read More</button>
-                  </div>
+                    <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id
+                        nisi lectus at.Ï</p>
+                    <div class="card-actions justify-start">
+                        <button
+                            class="btn btn-primary bg-white text-bike_primary border border-2 border-red-400  hover:border-red-400 hover:bg-bike_primary  hover:text-white ">Read
+                            More</button>
+                    </div>
                 </div>
-              </div>
+            </div>
         </div>
         <!-- latest news -->
+        <!-- Clients Review -->
+        <div>
+            <div class="flex justify-center mt-20 mb-10">
+                <h1 class="text-4xl">Happy <span class="text-red-400 font-extrabold ">Clients says</span></h1>
+            </div>
+        </div>
+        <div class="grid  md:grid-cols-2 lg:grid-cols-3 gap-2  justify-evenly"> 
+            <div class="card card-compact w-96 bg-base-100 shadow-lg  border-2 border-red-100 py-10 px-9">
+                <figure><img src="/images/others/user-1.png" alt="Shoes" /></figure>
+                <div class="card-body text-center space-y-3">
+                    <p>Slate helps you see how
+                        many more days you need
+                        to work to reach your financial
+                        goal for the month and year.</p>
+                    <div class="rating flex justify-center">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+                    <p class="text-blue-500 text-xm">Regina Miles</p>
+                    <p class="text-xs">Banker</p>
+                </div>
+            </div>
+            <div class="card card-compact w-96 bg-base-100 shadow-lg  border-2 border-red-100 py-10 px-9">
+                <figure><img src="/images/others/user-2.png" alt="Shoes" /></figure>
+                <div class="card-body text-center space-y-3">
+                    <p>Slate helps you see how
+                        many more days you need
+                        to work to reach your financial
+                        goal for the month and year.</p>
+                    <div class="rating flex justify-center">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+                    <p class="text-blue-500 text-xm">Regina Miles</p>
+                    <p class="text-xs">Banker</p>
+                </div>
+            </div>
+            <div class="card card-compact w-96 bg-base-100 shadow-lg  border-2 border-red-100 py-10 px-9">
+                <figure><img src="/images/others/user-3.png" alt="Shoes" /></figure>
+                <div class="card-body text-center space-y-3">
+                    <p>Slate helps you see how
+                        many more days you need
+                        to work to reach your financial
+                        goal for the month and year.</p>
+                    <div class="rating flex justify-center">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+                    <p class="text-blue-500 text-xm">Regina Miles</p>
+                    <p class="text-xs">Banker</p>
+                </div>
+            </div>
+        </div>
+        <!-- Clients Review -->
 
     </main>
     <footer></footer>
